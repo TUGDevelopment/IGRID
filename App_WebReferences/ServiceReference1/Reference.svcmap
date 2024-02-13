@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cec3ac85-32fd-4a35-b31a-4782b306658b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://idc-app-dv3-114.thaiunion.co.th:8089/WS/IGRID/MM72.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MM72.disco" MetadataType="Disco" ID="799a2e2e-8235-4bb8-8735-a578de092184" SourceId="1" SourceUrl="http://idc-app-dv3-114.thaiunion.co.th:8089/WS/IGRID/MM72.svc?disco" />
+    <MetadataFile FileName="MM72.xsd" MetadataType="Schema" ID="d5a5d6bf-b914-4387-a20a-a2639c2909aa" SourceId="1" SourceUrl="http://idc-app-dv3-114.thaiunion.co.th:8089/WS/IGRID/MM72.svc?xsd=xsd0" />
+    <MetadataFile FileName="MM72.wsdl" MetadataType="Wsdl" ID="5de0e712-df0d-456e-aa58-c03c72a1a050" SourceId="1" SourceUrl="http://idc-app-dv3-114.thaiunion.co.th:8089/WS/IGRID/MM72.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

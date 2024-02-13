@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MM73" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="MM73_OUTBOUND_MATERIAL_NUMBER">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="param" type="tns:IGRID_OUTBOUND_MODEL" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="IGRID_OUTBOUND_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="OUTBOUND_HEADERS" type="tns:ArrayOfIGRID_OUTBOUND_HEADER_MODEL" />
+          <xs:element minOccurs="0" maxOccurs="1" name="OUTBOUND_ITEMS" type="tns:ArrayOfIGRID_OUTBOUND_ITEM_MODEL" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfIGRID_OUTBOUND_HEADER_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Header" nillable="true" type="tns:IGRID_OUTBOUND_HEADER_MODEL" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IGRID_OUTBOUND_HEADER_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="ArtworkNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="RecordType" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Date" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Time" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="MaterialNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="MaterialDescription" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="MaterialCreatedDate" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ArtworkURL" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Status" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PAUserName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PGUserName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReferenceMaterial" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Plant" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PrintingStyleofPrimary" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PrintingStyleofSecondary" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersDesign" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersDesignDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSpec" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSpecDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSize" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSizeDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesVendor" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesVendorDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesColorPantone" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesColorPantoneDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeScanable" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeScanableDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeSpec" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeSpecDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="FirstInfoGroup" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SONumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SOitem" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SOPlant" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PICMKT" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Destination" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="RemarkNoteofPA" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="FinalInfoGroup" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="RemarkNoteofPG" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CompleteInfoGroup" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ProductionExpirydatesystem" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Seriousnessofcolorprinting" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustIngreNutritionAnalysis" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ShadeLimit" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PackageQuantity" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="WastePercent" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfIGRID_OUTBOUND_ITEM_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="InboundArtwork" nillable="true" type="tns:IGRID_OUTBOUND_ITEM_MODEL" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IGRID_OUTBOUND_ITEM_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="ArtworkNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Date" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Time" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Characteristic" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="MM73_OUTBOUND_MATERIAL_NUMBERResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="MM73_OUTBOUND_MATERIAL_NUMBERResult" type="tns:SERVICE_RESULT_MODEL" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SERVICE_RESULT_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="status" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="msg" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="IMM73_MM73_OUTBOUND_MATERIAL_NUMBER_InputMessage">
+    <wsdl:part name="parameters" element="tns:MM73_OUTBOUND_MATERIAL_NUMBER" />
+  </wsdl:message>
+  <wsdl:message name="IMM73_MM73_OUTBOUND_MATERIAL_NUMBER_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MM73_OUTBOUND_MATERIAL_NUMBERResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMM73">
+    <wsdl:operation name="MM73_OUTBOUND_MATERIAL_NUMBER">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMM73/MM73_OUTBOUND_MATERIAL_NUMBER" message="tns:IMM73_MM73_OUTBOUND_MATERIAL_NUMBER_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMM73/MM73_OUTBOUND_MATERIAL_NUMBERResponse" message="tns:IMM73_MM73_OUTBOUND_MATERIAL_NUMBER_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMM73" type="tns:IMM73">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MM73_OUTBOUND_MATERIAL_NUMBER">
+      <soap:operation soapAction="http://tempuri.org/IMM73/MM73_OUTBOUND_MATERIAL_NUMBER" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MM73">
+    <wsdl:port name="BasicHttpBinding_IMM73" binding="tns:BasicHttpBinding_IMM73">
+      <soap:address location="http://idc-app-dv3-114.thaiunion.co.th:8089/WS/IGRID/MM73.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArtworkObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArtworkNumber>AW-N-2020-00003167</ArtworkNumber>
+  <Date>20200427</Date>
+  <Time>22:02:04</Time>
+  <RecordType>I</RecordType>
+  <MaterialNumber />
+  <MaterialDescription />
+  <MaterialCreatedDate />
+  <ArtworkURL>http://idc-app-dv3-115.thaiunion.co.th:8089/TaskFormArtwork/11005</ArtworkURL>
+  <Status />
+  <PAUserName>MO380401</PAUserName>
+  <PGUserName>MO530515</PGUserName>
+  <ReferenceMaterial>5K03P081N000000302</ReferenceMaterial>
+  <Plant>1021;1022</Plant>
+  <PrintingStyleofPrimary />
+  <PrintingStyleofSecondary />
+  <CustomersDesign />
+  <CustomersDesignDetail />
+  <CustomersSpec />
+  <CustomersSpecDetail />
+  <CustomersSize />
+  <CustomersSizeDetail />
+  <CustomerNominatesVendor />
+  <CustomerNominatesVendorDetail />
+  <CustomerNominatesColorPantone />
+  <CustomerNominatesColorPantoneDetail />
+  <CustomersBarcodeScanable />
+  <CustomersBarcodeScanableDetail />
+  <CustomersBarcodeSpec />
+  <CustomersBarcodeSpecDetail />
+  <FirstInfoGroup />
+  <SONumber />
+  <SOitem />
+  <SOPlant />
+  <PICMKT />
+  <Destination />
+  <RemarkNoteofPA />
+  <FinalInfoGroup />
+  <RemarkNoteofPG />
+  <CompleteInfoGroup />
+  <ProductionExpirydatesystem />
+  <Seriousnessofcolorprinting />
+  <CustIngreNutritionAnalysis />
+  <ShadeLimit />
+  <PackageQuantity />
+  <WastePercent />
+</ArtworkObject>

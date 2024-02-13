@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BizTalkServiceInstance" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <CreationInfo Created="2019-03-16 02:36:48Z" />
+  </wsdl:documentation>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITwoWayAsync_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://schemas.microsoft.com/Message" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/Message" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="MessageBody">
+        <xs:sequence>
+          <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##any" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:tns="http://tempuri.org/Imports" targetNamespace="http://tempuri.org/Imports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://tempuri.org/" />
+    </xs:schema>
+    <xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="MM73_OUTBOUND_MATERIAL_NUMBER">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q1="http://tempuri.org/" minOccurs="0" maxOccurs="1" name="param" type="q1:IGRID_OUTBOUND_MODEL" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="IGRID_OUTBOUND_MODEL">
+        <xs:sequence>
+          <xs:element xmlns:q2="http://tempuri.org/" minOccurs="0" maxOccurs="1" name="OUTBOUND_HEADERS" type="q2:ArrayOfIGRID_OUTBOUND_HEADER_MODEL" />
+          <xs:element xmlns:q3="http://tempuri.org/" minOccurs="0" maxOccurs="1" name="OUTBOUND_ITEMS" type="q3:ArrayOfIGRID_OUTBOUND_ITEM_MODEL" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfIGRID_OUTBOUND_HEADER_MODEL">
+        <xs:sequence>
+          <xs:element xmlns:q4="http://tempuri.org/" minOccurs="0" maxOccurs="unbounded" name="Header" nillable="true" type="q4:IGRID_OUTBOUND_HEADER_MODEL" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IGRID_OUTBOUND_HEADER_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="ArtworkNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="RecordType" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Date" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Time" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="MaterialNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="MaterialDescription" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="MaterialCreatedDate" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ArtworkURL" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Status" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PAUserName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PGUserName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReferenceMaterial" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Plant" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PrintingStyleofPrimary" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PrintingStyleofSecondary" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersDesign" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersDesignDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSpec" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSpecDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSize" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersSizeDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesVendor" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesVendorDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesColorPantone" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomerNominatesColorPantoneDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeScanable" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeScanableDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeSpec" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustomersBarcodeSpecDetail" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="FirstInfoGroup" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SONumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SOitem" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="SOPlant" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PICMKT" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Destination" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="RemarkNoteofPA" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="FinalInfoGroup" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="RemarkNoteofPG" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CompleteInfoGroup" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ProductionExpirydatesystem" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Seriousnessofcolorprinting" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CustIngreNutritionAnalysis" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ShadeLimit" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PackageQuantity" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="WastePercent" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfIGRID_OUTBOUND_ITEM_MODEL">
+        <xs:sequence>
+          <xs:element xmlns:q5="http://tempuri.org/" minOccurs="0" maxOccurs="unbounded" name="InboundArtwork" nillable="true" type="q5:IGRID_OUTBOUND_ITEM_MODEL" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IGRID_OUTBOUND_ITEM_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="ArtworkNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Date" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Time" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Characteristic" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="MM73_OUTBOUND_MATERIAL_NUMBERResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q6="http://tempuri.org/" minOccurs="0" maxOccurs="1" name="MM73_OUTBOUND_MATERIAL_NUMBERResult" type="q6:SERVICE_RESULT_MODEL" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SERVICE_RESULT_MODEL">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="status" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="msg" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="MM73_MATERIAL_NUMBER_InputMessage">
+    <wsdl:part name="part" element="tns:MM73_OUTBOUND_MATERIAL_NUMBER" />
+  </wsdl:message>
+  <wsdl:message name="MM73_MATERIAL_NUMBER_OutputMessage">
+    <wsdl:part name="part" element="tns:MM73_OUTBOUND_MATERIAL_NUMBERResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MM73">
+    <wsdl:documentation />
+    <wsdl:operation name="MATERIAL_NUMBER">
+      <wsdl:documentation />
+      <wsdl:input message="tns:MM73_MATERIAL_NUMBER_InputMessage" />
+      <wsdl:output message="tns:MM73_MATERIAL_NUMBER_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_ITwoWayAsync" type="tns:MM73">
+    <wsp:PolicyReference URI="#WSHttpBinding_ITwoWayAsync_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MATERIAL_NUMBER">
+      <wsdl:documentation />
+      <soap12:operation soapAction="MATERIAL_NUMBER" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" encodingStyle="http://www.w3.org/2003/05/soap-encoding" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BizTalkServiceInstance">
+    <wsdl:port name="WSHttpBinding_ITwoWayAsync" binding="tns:WSHttpBinding_ITwoWayAsync">
+      <soap12:address location="http://seulonbt999.mwb.net/BizTalkWcfService/MM73.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://seulonbt999.mwb.net/BizTalkWcfService/MM73.svc</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

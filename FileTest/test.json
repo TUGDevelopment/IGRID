@@ -1,0 +1,298 @@
+[
+   {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_FAO",
+        "Value": "NO",
+        "Description": "NO"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_CATCHING_AREA",
+        "Value": "NO",
+        "Description": "NO"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_SYMBOL",
+        "Value": "NO SYMBOL",
+        "Description": "NO SYMBOL"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_SYMBOL",
+        "Value": "NO NUTRIENT CLAIM",
+        "Description": "NO NUTRIENT CLAIM"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_SYMBOL",
+        "Value": "NO NUTRIENT CLAIM",
+        "Description": "NO NUTRIENT CLAIM"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_GROUP",
+        "Value": "J",
+        "Description": "Sticker"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STICKER_TYPE",
+        "Value": "STICKER BOTTOM",
+        "Description": "STICKER BOTTOM"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PLANT_REGISTER",
+        "Value": "NO",
+        "Description": "NO"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STKC_PMS_COLOUR",
+        "Value": "0",
+        "Description": "0"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_COMPANY_ADR",
+        "Value": "NO",
+        "Description": "NO"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STKC_PROCESS_COLOUR",
+        "Value": "1",
+        "Description": "1"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_CATCHING_PERIOD",
+        "Value": "NO",
+        "Description": "NO"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STKC_TOTAL_COLOUR",
+        "Value": "1",
+        "Description": "1"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_CATCHING_METHOD",
+        "Value": "NO",
+        "Description": "No"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_SCIENTIFIC_NAME",
+        "Value": "NO",
+        "Description": "No"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STKC_PRINTING_STYLE",
+        "Value": "NORMAL",
+        "Description": "NORMAL"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_SPECIE",
+        "Value": "NO",
+        "Description": "No"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_DIRECTION",
+        "Value": "NO.3",
+        "Description": "NO.3"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_BRAND",
+        "Value": "17G",
+        "Description": "NATURE'S RECIPE"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PRIMARY_SIZE",
+        "Value": "Cup71.4x91.4x30.6",
+        "Description": "Cup71.4x91.4x30.6"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_CONTAINER_TYPE",
+        "Value": "Oval clear cup",
+        "Description": "Oval clear cup"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_LID_TYPE",
+        "Value": "<Heat seal>",
+        "Description": "<Heat seal>"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_CHANGE_POINT",
+        "Value": "N",
+        "Description": "No Change Point"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_DIRECTION",
+        "Value": "NO.3",
+        "Description": "NO.3"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PRIMARY_TYPE",
+        "Value": "PLASTIC CUP",
+        "Description": "Plastic Cup"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PACKING_STYLE",
+        "Value": "P69",
+        "Description": "P69"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PACKING",
+        "Value": "12",
+        "Description": "12"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PRODUCT_CODE",
+        "Value": "3QCBSB3AN2IADPDTF7",
+        "Description": "71X91X30 MM CUP 78N CK NB (D)-12"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_VENDOR",
+        "Value": "107",
+        "Description": "บจก.ไทยยูเนี่ยน กราฟฟิกส์"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STICKER_GRADE",
+        "Value": "STK ขาวมัน/ขาวเงา(เหนียวพิเศษ)",
+        "Description": "STK ขาวมัน/ขาวเงา(เหนียวพิเศษ)"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_RSC_DI",
+        "Value": "NO",
+        "Description": "No"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_ROLL_SHEET",
+        "Value": "ROLL",
+        "Description": "ROLL"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STICKER_DIMENSION",
+        "Value": "60x41",
+        "Description": "60x41"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_STKC_TOTAL_COLOUR",
+        "Value": "1",
+        "Description": "1"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_PRINTING_SYSTEM",
+        "Value": "OFFSET",
+        "Description": "OFFSET"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_ACCESSORIES",
+        "Value": "NO",
+        "Description": "NO"
+      },
+      {
+        "ArtworkNumber": "AW-N-2020-00003167",
+        "Date": "20191223",
+        "Time": "15:54:39",
+        "Characteristic": "ZPKG_SEC_SHEET_SIZE",
+        "Value": "NO",
+        "Description": "NO"
+      }
+      ]
